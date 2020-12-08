@@ -554,10 +554,11 @@ a:visited {
     transition: color 0.5s;
 }
 .logo-email:hover {
-    color: #781330;
+    color: #b11541;
+    /* cursor: pointer; not needed anymore!*/
 }
 .logo-linkedin:hover {
-    color: #3b5998;
+    color: #245cd4;
 }
 .logo-whatsapp:hover {
     color: #25d366;
@@ -575,7 +576,7 @@ a:visited {
 }
 
 .btn-outline-secondary:hover {
-    background-color: #875ca7;
+    background-color: #6700b1;
     color: #FFF;
     border: 1px solid #4e226d;
 
