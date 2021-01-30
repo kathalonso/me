@@ -1,4 +1,4 @@
 Template copyright 2016 Nicola Tolin www.nicolatolin.com
 
-# href onclick email button 
+href onclick email button 
 https://stackoverflow.com/a/11348403

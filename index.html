@@ -8,6 +8,7 @@
       <meta name="author" content="">
       <title>Kathalina Alonso</title>
       <!-- Css -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
       <link href="css/bootstrap.css" rel="stylesheet">
       <link href="css/style.css" rel="stylesheet">
       <link rel="icon" 
@@ -24,15 +25,12 @@
                <span class="icon-bar bottom"></span>
                </button>
             </div>
-            <!-- <a class="navbar-brand" href="index.html">
-            <img class="logo" src="img/logo.png" alt="logo">
-            </a> -->
+
             <div class="nav-content hideNav hidden">
                <ul class="nav-list vcenter">
                   <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
                   <li class="nav-item"><a class="item-anchor" href="about.html">About</a></li>
                   <li class="nav-item"><a class="item-anchor" href="portfolio.html">Portfolio</a></li>
-                  <!-- <li class="nav-item"><a class="item-anchor" href="contact.html">Contact</a></li> -->
                </ul>
             </div>
          </div>
@@ -64,55 +62,111 @@
                   </p> 
                </div>
             </div>
+
             <div class="row margin-top-45">
                <div class="col-md-3">
                   <h2>Portfolio</h2>
                </div>
+
                <div class="col-md-9">
                   <p>
                      Recent works of genius 🧠🤯:
                   </p>
-               </div>
-               <div class="col-md-9">
-                  <div class="row">
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>ToughLove</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>[something NLP]</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                           <li>[something edtech]</li>
-                        </ul>
-                     </div>
-                     <div class="col-md-9">
-                        <br>
-                        <a type="button" class="btn btn-outline-secondary" href="portfolio.html">More works</a>
-                     </div>
+                  <div class="row" >  
+
+                     <!-- What's the difference between what I have currently and "card deck" ? -->
+
+                     <!-- <div class="card-deck">
+                        <div class="card border-light mb-3">
+                          <img class="card-img-top"  src="img/toughlove-card.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">ToughLove</h5>
+                            <p class="card-text">A voice skill that features a maternal, no-nonsense 
+                              Italian-heritage broad from NJ dishing out harsh heart-to-heart.</p>
+                          </div>
+                        </div>
+                        <div class="card border-light mb-3">
+                          <img class="card-img-top" src="img/talkikati-card.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">TalkiKati</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                          </div>
+                        </div>
+                        <div class="card border-light mb-3">
+                          <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                          <div class="card-body">
+                            <h4 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                          </div>
+                        </div>
+                      </div> -->
+
+
+                      <!-- class "card" is giving me a border for the first card -->
+                  <div class="col-md-4"> 
+                     <ul class="list-unstyled">
+                        <div class="card shadow-sm p-3 mb-5 bg-white rounded" >
+                        <!-- <img class="card-img-top" src="img/toughlove-card.png"> -->
+                           <div class="card-body">
+                              <h4 class="card-title">Tough Love</h4>
+                              <p class="card-text">A voice skill that features a maternal, no-nonsense 
+                              Italian-heritage broad from NJ dishing out harsh heart-to-heart.</p>
+                           </div>
+                        </div>
+                     </ul>
+                  </div>
+                  
+                  <div class="col-md-4">
+                     <ul class="list-unstyled">
+                        <div class="">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                           <div class="card-body">
+                              <h4 class="card-title">TalkiKati</h4>
+                              <p class="card-text">A chatbot built with Botcopy and Google's DialogFlow. 
+                                 The end result? An intelligent personal assistant for my website!
+                              </p>                        
+                           </div>
+                        </div>
+                     </ul>
+                  </div>
+
+                  <div class="col-md-4">
+                     <ul class="list-unstyled">
+                        <div class="">
+                        <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
+                           <div class="card-body">
+                              <h4 class="card-title">React project</h4>
+                              <p class="card-text">ABCabc123</p>                        
+                           </div>
+                        </div>
+                     </ul>
+                  </div>
+
+                  <div class="col-md-9">
+                     <br>
+                     <a type="button" class="btn btn-outline-secondary" href="portfolio.html">More works</a>
+                  </div>
                   </div>
                </div>
             </div>
+            
             <div class="row margin-top-45">
                <div class="col-md-3">
                   <h2>Contact</h2>
                </div>
                <div class="col-md-9">
                   <p>
-                     Enough about me, tell me about you 📬😃:
+                     Stalking is normal now 📬😃:
                   </p>
                   <ul class="social-media-list">
                      <li><a class="logo-email" onclick="copy('kathalonso3@gmail.com');return false;" href="#"><ion-icon name="mail"></ion-icon></a></li>
                      <li><a class="logo-linkedin" href="https://www.linkedin.com/in/kathalonso/" target="blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
                      <li><a class="logo-github" href="https://github.com/kathalonso" target="blank"><ion-icon name="logo-github"></ion-icon></a></li>
-                     <li><a class="logo-whatsapp" href="https://wa.me/qr/KHLBM6ARI7UYF1"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+                     <li><a class="logo-whatsapp" href="http://wa.me/19082857966"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
                   </ul> 
                </div>
             </div>
+
          </div>
       </section>
       <!-- script -->
