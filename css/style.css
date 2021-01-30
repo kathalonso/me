@@ -591,8 +591,8 @@ video:focus {
 /* -----------Card-Top img -----------*/
 
 .card-img-top {
-    width: 60%;
-    height: 10vw;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
