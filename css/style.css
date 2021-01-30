@@ -451,16 +451,7 @@ a:visited {
 #headslide {
     position: relative;
 }
-/* #headslide .img-responsive,
-#headslide .thumbnail > img,
-#headslide .thumbnail a > img,
-#headslide .carousel-inner > .item > img,
-#headslide .carousel-inner > .item > a > img {
-    height: 100vh;
-    max-width: none;
-    object-fit: cover;
-    width: 100%;
-} */
+
 #header h1,
 #header p {
     color: #fff;
