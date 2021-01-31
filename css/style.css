@@ -576,8 +576,8 @@ a:visited {
 }
 
 .btn-img {
-    height: 20%;
-    width: 20%;
+    height: 24px;
+    width: 24px;
 }
 
 /*----------Video--------------*/
@@ -602,7 +602,8 @@ video:focus {
     border: 0px solid #ffffff;
 }
 
-/* .cardimg{
-    display: flex; 
-    justify-content: center;
-} */
+
+footer{
+    font-size: 10%;
+    padding-bottom: 20px;
+}
