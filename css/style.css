@@ -579,14 +579,27 @@ video:focus {
     outline:none; 
 }
 
-/* -----------Card-Top img -----------*/
+/* -----------Card-----------*/
 
 .card-img-top {
     width: 100%;
-    height: auto;
+    height: auto;x
     object-fit: cover;
 }
 
 .card {
     outline:#666;
+
+}
+
+
+
+/* -----------Card-Top img -----------*/
+
+.chat-bubble {
+    padding: 16px 24px;
+    border-radius: 8px 8px 8px 0px;
+    background: #f5f5f5;
+    width: fit-content;
+    margin: 10px 0px;
 }
