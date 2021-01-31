@@ -592,7 +592,7 @@ video:focus {
 }
 
 .card-body {
-    margin: 10px 0;
+    /* padding: 16px; */
 }
 
 .card-body p {
@@ -609,7 +609,6 @@ video:focus {
         margin-left: -20px;
     }   
 }
-
 
 .col-md-9 > p {
     margin-top: 10px;
