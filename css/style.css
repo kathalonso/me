@@ -624,3 +624,13 @@ video:focus {
     width: fit-content;
     margin: 10px 0px;
 }
+
+
+/* Section */
+
+@media (max-width: 450px) {
+    section {
+        padding-top: 120px;
+        padding-bottom: 185px;
+    }
+}
