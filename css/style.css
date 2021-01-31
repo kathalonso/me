@@ -565,13 +565,19 @@ a:visited {
     background-color: #fff;
     border: 1px solid #222;
     transition: all 0.5s;
+    
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .btn-outline-secondary:hover {
     background-color: #6700b1;
     color: #FFF;
     border: 1px solid #4e226d;
+}
 
+.btn-img {
+    height: 20%;
+    width: 20%;
 }
 
 /*----------Video--------------*/
@@ -582,11 +588,21 @@ video:focus {
 /* -----------Card-Top img -----------*/
 
 .card-img-top {
-    width: 100%;
+    /* width: 90%; */
+    width: 225px;
     height: auto;
     object-fit: cover;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .card {
-    outline:#666;
+    /* outline:rgb(245, 241, 241); */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border: 0px solid #ffffff;
 }
+
+/* .cardimg{
+    display: flex; 
+    justify-content: center;
+} */
