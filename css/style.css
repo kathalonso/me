@@ -583,13 +583,20 @@ video:focus {
 
 .card-img-top {
     width: 100%;
-    height: auto;x
+    height: auto;
     object-fit: cover;
 }
 
 .card {
-    outline:#666;
+    border: none;
+}
 
+.card-body {
+    margin: 10px 0;
+}
+
+.card-body p {
+    font-size: 0.9rem;
 }
 
 .card-deck .card {
@@ -604,9 +611,12 @@ video:focus {
 }
 
 
+.col-md-9 > p {
+    margin-top: 10px;
+}
 
 
-/* -----------Card-Top img -----------*/
+/* -----------Chat Bubble -----------*/
 
 .chat-bubble {
     padding: 16px 24px;
