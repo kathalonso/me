@@ -592,6 +592,18 @@ video:focus {
 
 }
 
+.card-deck .card {
+    width: auto;
+}
+
+@media (min-width: 544px) {
+    
+    .card-deck {
+        margin-left: -20px;
+    }   
+}
+
+
 
 
 /* -----------Card-Top img -----------*/
