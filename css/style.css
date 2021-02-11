@@ -557,7 +557,11 @@ a:visited {
 }
 .logo-github:hover {
     color: #24292e
+} 
+.logo-calendar:hover {
+    color: #00a2ff
 }
+
 
 /*----------buttons--------------*/
 
