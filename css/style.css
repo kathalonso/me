@@ -638,3 +638,12 @@ video:focus {
         padding-bottom: 185px;
     }
 }
+
+/* Img */
+.img-caption {
+    text-align: center;
+    font-size: small;
+    padding-top: 5px;
+    color: rgb(209, 209, 209);
+    font-family: sans-serif;
+}
