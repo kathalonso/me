@@ -586,7 +586,7 @@ video:focus {
 /* -----------Card-----------*/
 
 .card-img-top {
-    width: 100%;
+    width: 90%;
     height: auto;
     object-fit: cover;
 }
