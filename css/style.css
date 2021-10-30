@@ -603,8 +603,8 @@ video:focus {
     font-size: 0.9rem;
 }
 
-.card-deck .card {
-    width: auto;
+.card-deck {
+    width: 100%;
 }
 
 @media (min-width: 544px) {
