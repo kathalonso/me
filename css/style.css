@@ -1,5 +1,5 @@
-/* @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
-@import 'https://fonts.googleapis.com/css?family=Fauna+One'; */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import 'https://fonts.googleapis.com/css?family=Fauna+One';
 
 /*---------- Global Style ----------*/
 
@@ -19,14 +19,14 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     color: #111;
     line-height: 1.5em;
     margin-top: 0;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
+    font-weight: 250;
     margin-top: 1px;
     margin-bottom: 25px;
 }
