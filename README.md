@@ -1,8 +1,5 @@
 ## https://kathalonso.github.io/me/
 
-Template copyright 2016 Nicola Tolin www.nicolatolin.com
-
-href onclick email button
-https://stackoverflow.com/a/11348403
+If you're viewing this page on your browser, I definitely made an oops.
 
 
